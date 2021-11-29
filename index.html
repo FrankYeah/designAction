@@ -39,20 +39,20 @@
 <body>
 
 	
-	<header class="header">
+	<header id="header" class="header">
 		<div class="header-box">
 			<img class="header-logo" src="./img/nav-logo.png" alt="logo">
 			<div class="header-right">
-				<div class="header-nav">關於中華電信基金會</div>
-				<div class="header-nav">影音專區</div>
-				<div class="header-nav">文章專區</div>
+				<div id="navTop" class="header-nav">關於中華電信基金會</div>
+				<div id="navVideo" class="header-nav">影音專區</div>
+				<div id="navArticle" class="header-nav">文章專區</div>
 			</div>
 		</div>
 	</header>
 
 	<img class="index-bg" src="./img/first-bg.png" alt="bg">
 
-	<div class="main">
+	<div id="positionTop" class="main">
 		<div class="main-box">
 			<div class="main-left">
 				<div class="main-left-box">
@@ -64,21 +64,41 @@
 			</div>
 			<div class="main-right">
 				<!-- 輪播 -->
+				<div id="swiperContainer" class="swiper1 swiper-container swiper-no-swiping">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide main-rotate main-rotate-1"></div>
+						<div class="swiper-slide main-rotate main-rotate-2"></div>
+						<div class="swiper-slide main-rotate main-rotate-3"></div>
+						<div class="swiper-slide main-rotate main-rotate-4"></div>
+					</div>
+				</div>
+				<!-- 輪播 -->
 			</div>
 		</div>
-		<div class="main-bottom-bg"></div>
+		<div id="mainGreen" class="main-bottom-bg"></div>
 	</div>
 
-	<div class="video">
-		<!-- 用偽類 -->
+
+	
+
+	<div id="positionVideo" class="video">
 		<div class="video-box">
-			<div class="video-rotate"></div>
+			<div class="video-rotate-box">
+				<!-- 輪播 -->
+				<div id="swiperContainer2" class="swiper2 swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide video-rotate video-rotate-1"></div>
+						<div class="swiper-slide video-rotate video-rotate-2"></div>
+					</div>
+				</div>
+				<!-- 輪播 -->
+			</div>
 			<div class="video-head">2021蹲點創新設計行動</div>
 			<div class="video-text">中華電信基金會將資源整合串連，提供師生團隊最好的實踐場域，協助社區找出痛點並產出解決方案，一同用地方創生翻轉社區，綻放地方創生的在地能量</div>
 		</div>
 	</div>
 
-	<div class="article">
+	<div id="positionArticle" class="article">
 
 		<div class="article-logo-box">
 			<img class="article-logo" src="./img/title-bg.png" alt="arrow">
@@ -132,9 +152,9 @@
 
 
 		<div class="article-top">
-			<img class="article-top-img" src="./img/back-top.png" alt="article">
+			<img id="backToTop" class="article-top-img" src="./img/back-top.png" alt="article">
 		</div>
-		<img class="article-bg" src="./img/first-bg.png" alt="bg">
+		<img class="article-bg" src="./img/last-bg.png" alt="bg">
 	</div>
 
 	<footer class="footer">
