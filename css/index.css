@@ -80,7 +80,7 @@ table {
 /* index */
 
 .index-bg {
-	width: 100px;
+	width: 400px;
 	position: absolute;
 	top: 0px;
 	left: 0px;
@@ -128,9 +128,17 @@ table {
 	cursor: pointer;
 }
 
+.main-btn:hover {
+	opacity: 0.8;
+}
+
 .main-btn-img {
 	width: 86px;
 	cursor: pointer;
+}
+
+.main-btn-img:hover {
+	opacity: 0.8;
 }
 
 .main-right {
@@ -152,11 +160,13 @@ table {
 /* video */
 
 .video {
-  padding: 70px 175px 82px;
+  padding: 70px 0px 82px;
 }
 
 .video-box {
+	max-width: 956px;
 	position: relative;
+	margin: auto;
 	border: 1px solid #8D9567;
 	border-top: 0px solid;
 	padding: 9px 66px 33px;
@@ -207,7 +217,7 @@ table {
 .article {
 	position: relative;
 	margin: auto;
-	padding: 82px 0px 115px;
+	padding: 82px 0px 33px;
 	background-color: #DDE0D1;
 }
 
@@ -236,8 +246,12 @@ table {
 
 .article-box {
 	display: flex;
-	max-width: 900px;
+	max-width: 1023px;
 	margin: 64px auto 0px;
+}
+
+.article-box-reverse {
+	justify-content: flex-end;
 }
 
 .article-text-box {
@@ -259,8 +273,12 @@ table {
 .article-head-img {
 	position: absolute;
 	top: 48px;
-	width: 200px;
+	width: 220px;
 	z-index: 0;
+}
+
+.article-head-img-last {
+	top: 30px;
 }
 
 .article-text {
@@ -277,9 +295,17 @@ table {
 	cursor: pointer;
 }
 
+.article-btn:hover {
+	opacity: 0.8;
+}
+
 .article-btn-img {
 	width: 86px;
 	cursor: pointer;
+}
+
+.article-btn-img:hover {
+	opacity: 0.8;
 }
 
 .article-img {
@@ -289,19 +315,35 @@ table {
 	transform: translateY(-12px);
 }
 
+.article-img-reverse {
+	margin-left: 0px;
+	margin-right: 400px;
+}
+
 .article-top {
-    
+	position: relative;
+	text-align: right;
+  margin: 40px 65px 0px 0px;
+	z-index: 2;
 }
 
 .article-top-img {
-    
+	width: 48px;
+	height: 48px;
+	cursor: pointer;
+}
+
+.article-top-img:hover {
+	opacity: 0.8;
 }
 
 .article-bg {
 	position: absolute;
 	bottom: 0px;
 	right: 0px;
-	width: 100px;
+	width: 400px;
+	transform: rotate(180deg);
+	z-index: 0;
 }
 
 
