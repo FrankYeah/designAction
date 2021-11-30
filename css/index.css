@@ -259,6 +259,7 @@ table {
 	background-size: cover;
 	background-position-y: center;
 	background-position-x: center;
+	cursor: pointer;
 }
 
 .video-rotate-1 {
@@ -267,6 +268,45 @@ table {
 
 .video-rotate-2 {
 	background-image: url('../img/video/video2.jpg');
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+	background: #FFFFFF;
+    opacity: 0.32;
+}
+
+.swiper-pagination-bullet-active {
+	opacity: 1 !important;
+}
+
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+	background-image: url('../img/left_arrow.png');
+	width: 32px;
+	height: 32px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: center;
+	background-position-x: center;
+	cursor: pointer;
+}
+
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next:hover {
+	opacity: 0.8;
+}
+
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+	background-image: url('../img/right_arrow.png');
+	width: 32px;
+	height: 32px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: center;
+	background-position-x: center;
+	cursor: pointer;
+}
+
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev:hover {
+	opacity: 0.8;
 }
 
 .video-head {
@@ -431,4 +471,521 @@ table {
 
 .footer-text {
     
+}
+
+@media( max-width: 1023px ){
+
+.body {
+
+}
+
+/* header */
+
+.header {
+	
+}
+
+.header-white {
+	
+}
+
+.header-box {
+	
+}
+
+.header-logo {
+	
+}
+
+.header-right {
+	
+}
+
+.header-nav {
+	
+}
+
+.header-nav:hover {
+	
+}
+
+/* index */
+
+.index-bg {
+	
+}
+
+/* main */
+
+.main {
+
+}
+
+.main-box {
+	
+}
+
+.main-left {
+	
+}
+
+.main-left-box {
+	
+}
+
+.main-logo {
+	
+}
+
+.main-text {
+	
+}
+
+.main-btn {
+	
+}
+
+.main-btn-img {
+	
+}
+
+.main-right {
+	
+}
+
+
+.main-rotate {
+	
+}
+
+.main-rotate-1 {
+	
+}
+
+.main-rotate-2 {
+	
+}
+
+.main-rotate-3 {
+	
+}
+
+.main-rotate-4 {
+	
+}
+
+.main-bottom-bg {
+	
+	
+}
+
+/* video */
+
+.video {
+	
+}
+
+.video-box {
+	
+}
+
+.video-box::before {
+	
+}
+
+.video-box::after {
+	
+}
+
+.video-rotate-box {
+	
+}
+
+.swiper2 {
+	
+}
+
+.video-rotate {
+	
+}
+
+.video-rotate-1 {
+	
+}
+
+.video-rotate-2 {
+	
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+	
+}
+
+.swiper-pagination-bullet-active {
+	
+}
+
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+	
+}
+
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+	
+}
+
+.video-head {
+	
+}
+
+.video-text {
+	
+}
+
+
+
+/* article */
+
+.article {
+	
+}
+
+.article-logo-box {
+	
+}
+
+.article-logo {
+	
+}
+
+.article-logo-text {
+	
+}
+
+.article-box {
+	
+}
+
+.article-box-reverse {
+	
+}
+
+.article-text-box {
+	
+}
+
+.article-head {
+	
+}
+
+.article-head-img {
+	
+}
+
+.article-head-img-last {
+	
+}
+
+.article-text {
+	
+
+}
+
+.article-btn {
+	
+}
+
+.article-btn-img {
+	
+}
+
+.article-img {
+	
+}
+
+.article-img-reverse {
+	
+}
+
+.article-top {
+	
+}
+
+.article-top-img {
+	
+}
+
+.article-bg {
+	
+}
+
+
+/* footer */
+
+.footer {
+	
+}
+
+.footer-text {
+    
+}
+
+
+}
+
+@media( max-width: 500px ){
+
+
+.body {
+
+}
+
+/* header */
+
+.header {
+	
+}
+
+.header-white {
+	
+}
+
+.header-box {
+	
+}
+
+.header-logo {
+	
+}
+
+.header-right {
+	
+}
+
+.header-nav {
+	
+}
+
+.header-nav:hover {
+	
+}
+
+/* index */
+
+.index-bg {
+	
+}
+
+/* main */
+
+.main {
+
+}
+
+.main-box {
+	
+}
+
+.main-left {
+	
+}
+
+.main-left-box {
+	
+}
+
+.main-logo {
+	
+}
+
+.main-text {
+	
+}
+
+.main-btn {
+	
+}
+
+.main-btn-img {
+	
+}
+
+.main-right {
+	
+}
+
+.main-rotate {
+	
+}
+
+.main-rotate-1 {
+	
+}
+
+.main-rotate-2 {
+	
+}
+
+.main-rotate-3 {
+	
+}
+
+.main-rotate-4 {
+	
+}
+
+.main-bottom-bg {
+	
+	
+}
+
+/* video */
+
+.video {
+	
+}
+
+.video-box {
+	
+}
+
+.video-box::before {
+	
+}
+
+.video-box::after {
+	
+}
+
+.video-rotate-box {
+	
+}
+
+.swiper2 {
+	
+}
+
+.video-rotate {
+	
+}
+
+.video-rotate-1 {
+	
+}
+
+.video-rotate-2 {
+	
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+	
+}
+
+.swiper-pagination-bullet-active {
+	
+}
+
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+	
+}
+
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+	
+}
+
+.video-head {
+	
+}
+
+.video-text {
+	
+}
+
+
+
+/* article */
+
+.article {
+	
+}
+
+.article-logo-box {
+	
+}
+
+.article-logo {
+	
+}
+
+.article-logo-text {
+	
+}
+
+.article-box {
+	
+}
+
+.article-box-reverse {
+	
+}
+
+.article-text-box {
+	
+}
+
+.article-head {
+	
+}
+
+.article-head-img {
+	
+}
+
+.article-head-img-last {
+	
+}
+
+.article-text {
+	
+
+}
+
+.article-btn {
+	
+}
+
+.article-btn-img {
+	
+}
+
+.article-img {
+	
+}
+
+.article-img-reverse {
+	
+}
+
+.article-top {
+	
+}
+
+.article-top-img {
+	
+}
+
+.article-bg {
+	
+}
+
+
+/* footer */
+
+.footer {
+	
+}
+
+.footer-text {
+	
+}
+
 }

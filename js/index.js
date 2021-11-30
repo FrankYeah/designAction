@@ -12,9 +12,11 @@ $(document).ready(function(){
 	navTop.onclick = () => {
 		document.getElementById('positionTop').scrollIntoView({ behavior: 'smooth' })
 	}
+
 	navVideo.onclick = () => {
-		document.getElementById('positionVideo').scrollIntoView({ behavior: 'smooth' })
+		document.getElementById('mainGreen').scrollIntoView({ behavior: 'smooth' })
 	}
+	
 	navArticle.onclick = () => {
 		document.getElementById('positionArticle').scrollIntoView({ behavior: 'smooth' })
 	}
@@ -42,6 +44,8 @@ $(document).ready(function(){
 		},
 	})
 
+
+
 	var swiper2 = new Swiper(".swiper2", {
 		lazy: true,
 		slidesPerView: 1,
@@ -49,12 +53,26 @@ $(document).ready(function(){
 		autoplay: {
 			delay: 4000
 		},
+		pagination: {
+			el: ".swiper-pagination",
+		},
+		navigation: {
+			nextEl: ".swiper-button-next",
+			prevEl: ".swiper-button-prev",
+		},
 		on: {
 			slideChange: function () {
 				const index_currentSlide = this.realIndex;
 				const currentSlide = this.slides[index_currentSlide]
 				console.log(index_currentSlide)
 				console.log(currentSlide)
+				if(index_currentSlide == 0) {
+					document.getElementById('videoHead').textContent = '中華電信基金會用創新設計營造社區共好'
+					document.getElementById('videoText').textContent = '媒合設計師生團隊與社區夥伴，用共創與設計回應在地的需求，這是以社會設計支持社區的起點，期待看見更多在地而生的永續共好。'
+				} else if(index_currentSlide == 1) {
+					document.getElementById('videoHead').textContent = '「2020蹲點創新設計行動」隆重上映！'
+					document.getElementById('videoText').textContent = '中華電信基金會攜手師生，點亮社區地方創生。驚艷國際級設計師蕭青陽的設計成果，看熱血師生用地方創生翻轉社區！'
+				}
 			},
 		},
 	})
