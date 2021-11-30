@@ -64,8 +64,6 @@ $(document).ready(function(){
 			slideChange: function () {
 				const index_currentSlide = this.realIndex;
 				const currentSlide = this.slides[index_currentSlide]
-				console.log(index_currentSlide)
-				console.log(currentSlide)
 				if(index_currentSlide == 0) {
 					document.getElementById('videoHead').textContent = '中華電信基金會用創新設計營造社區共好'
 					document.getElementById('videoText').textContent = '媒合設計師生團隊與社區夥伴，用共創與設計回應在地的需求，這是以社會設計支持社區的起點，期待看見更多在地而生的永續共好。'
