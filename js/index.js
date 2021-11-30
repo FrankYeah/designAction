@@ -1,5 +1,38 @@
 $(document).ready(function(){
 
+	var headerMenu = document.getElementById("headerMenu");
+	var headerRwd = document.getElementById("headerRwd");
+	var headerClose = document.getElementById("headerClose");
+	var navTop2 = document.getElementById("navTop2");
+	var navVideo2 = document.getElementById("navVideo2");
+	var navArticle2 = document.getElementById("navArticle2");
+	var headerOpacity = document.getElementById("headerOpacity");
+
+	headerMenu.onclick = () => {
+		headerRwd.style.display = 'block';
+	}
+
+	headerClose.onclick = () => {
+		headerRwd.style.display = 'none';
+	}
+
+	headerOpacity.onclick = () => {
+		headerRwd.style.display = 'none';
+	}
+
+	navTop2.onclick = () => {
+		document.getElementById('positionTop').scrollIntoView({ behavior: 'smooth' })
+	}
+
+	navVideo2.onclick = () => {
+		document.getElementById('mainGreen').scrollIntoView({ behavior: 'smooth' })
+	}
+	
+	navArticle2.onclick = () => {
+		document.getElementById('positionArticle').scrollIntoView({ behavior: 'smooth' })
+	}
+
+
 	var backToTop = document.getElementById("backToTop");
 	var navTop = document.getElementById("navTop");
 	var navVideo = document.getElementById("navVideo");
