@@ -43,6 +43,9 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+a,a:link,a:visited{color:black;text-decoration: none}
+a:hover{color:black;background-color: none;text-decoration: none;}
+a,a:link,a:visited{color:black}
 
 /* header */
 
@@ -211,6 +214,10 @@ table {
 
 .main-rotate-4 {
 	background-image: url('../img/landing/landing4.png');
+}
+
+.main-rotate-5 {
+	background-image: url('../img/landing/landing5.png');
 }
 
 .main-bottom-bg {
@@ -592,6 +599,10 @@ table {
 	
 }
 
+.main-rotate-5 {
+	
+}
+
 .main-bottom-bg {
 	
 	
@@ -861,7 +872,6 @@ table {
 	position: absolute;
 	width: 100%;
 	height: 384px;
-	background-color: rgba(0, 0, 0, 0.4);
 	color: white;
 	z-index: 2;
 }
@@ -892,6 +902,7 @@ table {
 
 .main-right {
 	width: 100%;
+	transform: translateY(-40px);
 }
 
 .swiper1 {
@@ -899,23 +910,27 @@ table {
 }
 
 .main-rotate {
-
+	
 }
 
 .main-rotate-1 {
-	
+	background-image: url('../img/landing/landingBlack1.png');
 }
 
 .main-rotate-2 {
-	
+	background-image: url('../img/landing/landingBlack2.png');
 }
 
 .main-rotate-3 {
-	
+	background-image: url('../img/landing/landingBlack3.png');
 }
 
 .main-rotate-4 {
-	
+	background-image: url('../img/landing/landingBlack4.png');
+}
+
+.main-rotate-5 {
+	background-image: url('../img/landing/landingBlack5.png');
 }
 
 .main-bottom-bg {
@@ -977,11 +992,13 @@ table {
 .swiper-button-prev, .swiper-container-rtl .swiper-button-next {
 	width: 15px;
 	height: 15px;
+	top: 60%;
 }
 
 .swiper-button-next, .swiper-container-rtl .swiper-button-prev {
 	width: 15px;
 	height: 15px;
+	top: 60%;
 }
 
 .video-head {
