@@ -413,7 +413,7 @@ a,a:link,a:visited{color:black}
 
 .article-head-img {
 	position: absolute;
-	top: 48px;
+	top: 24px;
 	width: 220px;
 	z-index: 0;
 }
