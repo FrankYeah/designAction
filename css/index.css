@@ -310,6 +310,7 @@ a,a:link,a:visited{color:black}
 
 .swiper-button-prev, .swiper-container-rtl .swiper-button-next {
 	background-image: url('../img/left_arrow.png');
+	top: 52%;
 	width: 32px;
 	height: 32px;
 	background-repeat: no-repeat;
@@ -325,6 +326,7 @@ a,a:link,a:visited{color:black}
 
 .swiper-button-next, .swiper-container-rtl .swiper-button-prev {
 	background-image: url('../img/right_arrow.png');
+	top: 52%;
 	width: 32px;
 	height: 32px;
 	background-repeat: no-repeat;
