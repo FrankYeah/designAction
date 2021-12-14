@@ -83,9 +83,9 @@ $(document).ready(function(){
 		lazy: true,
 		slidesPerView: 1,
 		spaceBetween: 30,
-		autoplay: {
-			delay: 4000
-		},
+		// autoplay: {
+		// 	delay: 4000
+		// },
 		pagination: {
 			el: ".swiper-pagination",
 		},
