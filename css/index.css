@@ -43,9 +43,9 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-a,a:link,a:visited{color:black;text-decoration: none}
+a,a:link,a:visited{color:initial;text-decoration: none}
 a:hover{color:black;background-color: none;text-decoration: none;}
-a,a:link,a:visited{color:black}
+a,a:link,a:visited{color:initial}
 
 /* header */
 
@@ -891,6 +891,7 @@ a,a:link,a:visited{color:black}
 }
 
 .main-btn {
+	color: white;
 	margin-top: 33px;
 }
 
