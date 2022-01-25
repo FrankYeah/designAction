@@ -98,14 +98,14 @@ $(document).ready(function(){
 				const index_currentSlide = this.realIndex;
 				const currentSlide = this.slides[index_currentSlide]
 				if(index_currentSlide == 0) {
-					document.getElementById('videoHead').textContent = '中華電信基金會用創新設計營造社區共好'
-					document.getElementById('videoText').textContent = '媒合設計師生團隊與社區夥伴，用共創與設計回應在地的需求，這是以社會設計支持社區的起點，期待看見更多在地而生的永續共好。'
-				} else if(index_currentSlide == 1) {
-					document.getElementById('videoHead').textContent = '「2020蹲點創新設計行動」隆重上映！'
-					document.getElementById('videoText').textContent = '中華電信基金會攜手師生，點亮社區地方創生。驚艷國際級設計師蕭青陽的設計成果，看熱血師生用地方創生翻轉社區！'
-				} else if(index_currentSlide == 2) {
 					document.getElementById('videoHead').textContent = '第二屆蹲點創新設計行動，用設計翻轉地方能量'
 					document.getElementById('videoText').textContent = '串聯「桃園新屋愛鄉協會」、「花蓮邦查農場」、「花蓮黎明教養院庇護工場」及三組設計系師生，一同透過創新設計，讓地方產業以新樣貌傳承延續.....'
+				} else if(index_currentSlide == 1) {
+					document.getElementById('videoHead').textContent = '中華電信基金會用創新設計營造社區共好'
+					document.getElementById('videoText').textContent = '媒合設計師生團隊與社區夥伴，用共創與設計回應在地的需求，這是以社會設計支持社區的起點，期待看見更多在地而生的永續共好。'
+				} else if(index_currentSlide == 2) {
+					document.getElementById('videoHead').textContent = '「2020蹲點創新設計行動」隆重上映！'
+					document.getElementById('videoText').textContent = '中華電信基金會攜手師生，點亮社區地方創生。驚艷國際級設計師蕭青陽的設計成果，看熱血師生用地方創生翻轉社區！'
 				}
 			},
 		},
