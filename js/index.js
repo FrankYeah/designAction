@@ -78,7 +78,8 @@ $(document).ready(function(){
 	})
 
 
-
+	var index_currentSlide = 0
+	var currentSlide = null
 	var swiper2 = new Swiper(".swiper2", {
 		lazy: true,
 		slidesPerView: 1,
@@ -89,14 +90,14 @@ $(document).ready(function(){
 		pagination: {
 			el: ".swiper-pagination",
 		},
-		navigation: {
-			nextEl: ".swiper-button-next",
-			prevEl: ".swiper-button-prev",
-		},
+		// navigation: {
+		// 	nextEl: ".swiper-button-next",
+		// 	prevEl: ".swiper-button-prev",
+		// },
 		on: {
 			slideChange: function () {
-				const index_currentSlide = this.realIndex;
-				const currentSlide = this.slides[index_currentSlide]
+				index_currentSlide = this.realIndex;
+				currentSlide = this.slides[index_currentSlide]
 				if(index_currentSlide == 0) {
 					document.getElementById('videoHead').textContent = '第二屆蹲點創新設計行動，用設計翻轉地方能量'
 					document.getElementById('videoText').textContent = '串聯「桃園新屋愛鄉協會」、「花蓮邦查農場」、「花蓮黎明教養院庇護工場」及三組設計系師生，一同透過創新設計，讓地方產業以新樣貌傳承延續.....'
@@ -111,8 +112,23 @@ $(document).ready(function(){
 		},
 	})
 
+	document.getElementById('prevVideo').onclick = () => {
+		if(index_currentSlide == 0) {
+			swiper2.slideTo(2)
+		} else {
+			swiper2.slideTo(index_currentSlide-1)
+		}
+		
+	}
 
-
+	document.getElementById('nextVideo').onclick = () => {
+		if(index_currentSlide == 2) {
+			swiper2.slideTo(0)
+		} else {
+			swiper2.slideTo(index_currentSlide+1)
+		}
+	}
+	
 
 
 
